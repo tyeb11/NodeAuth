@@ -1,0 +1,68 @@
+body{
+    background-color: whitesmoke;
+}
+.block{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 75%;
+    height: 75%;
+    align-items: center;
+    align-content: center;
+}
+form{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+#username{
+    outline: none;
+    display: block;
+    margin-left: 20%;
+    width: 40%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+}
+#password{
+    outline: none;
+    display: block;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 40%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+}
+#email{
+    outline: none;
+    display: block;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 40%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+}
+
+button{
+    display: block;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 40%;
+    height: 10%;
+}
+a{
+    display: block;
+    margin-top: 10%;
+    margin-left: 35%;
+    text-decoration: none;
+    color: black;
+}

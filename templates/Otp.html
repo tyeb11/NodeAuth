@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="public/Otp.css" type="text/css">
+    <script type="text/javascript" charset="utf8" src="public/otp.js"></script>
+</head>
+<body class="otp">
+    <div class="block">
+        <form id="otpCreate" method="post" action="/api/otps">
+            <input id="otp" type="text" placeholder="OTP"/>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
